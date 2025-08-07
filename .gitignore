@@ -1,0 +1,22 @@
+# Dependencias
+node_modules/
+
+# Carpeta de build de Next.js
+.next/
+out/
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Configuración del editor
+.vscode/
+.idea/
+*.swp
