@@ -82,7 +82,7 @@ export function ContactForm() {
         className="w-full bg-blue-600 hover:bg-blue-700" 
         disabled={isPending}
       >
-        {isPending ? 'Enviando...' : 'Enviar Mensaje'}
+        {isPending ? 'Enviando...' : 'Empezá tu proyecto ahora'}
       </Button>
       {message && (
         <div className={`mt-4 p-3 rounded-md text-sm ${

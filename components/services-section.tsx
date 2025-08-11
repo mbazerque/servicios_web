@@ -27,8 +27,9 @@ export function ServicesSection() {
     <section id="servicios" className="bg-gray-50 py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Mis Servicios</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Cada negocio es único, y tu web también debería serlo</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            
             Ofrezco soluciones completas de desarrollo web adaptadas a las necesidades de tu negocio
           </p>
         </div>

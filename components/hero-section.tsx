@@ -13,21 +13,21 @@ export function HeroSection() {
               Estudiante de Ingenieria en Sistemas
             </Badge>
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              Llevá    
-              <span className="text-blue-600"> tu negocio</span> al siguiente nivel.
+              LLEVÁ   
+              <span className="text-blue-600"> TU NEGOCIO</span> AL SIGUIENTE NIVEL.
             </h1>
-            <p className="text-xl text-gray-600 leading-relaxed">
-              Desarrollo sitios web modernos, rápidos y optimizados que impulsan tu negocio. 
+            <p className="text-xl text-gray-600 leading-relaxed">   
+              Creamos sitios web modernos, rapidos y optimizados para que cada visita se convierta en un cliente.
               Desde landing pages hasta aplicaciones web complejas.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-              Ver Mis Proyectos
+              Solicitá tu presupuesto gratis
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button size="lg" variant="outline">
-              Hablemos
+            <Button size="lg" variant="outline" asChild>
+              <a href="#proyectos">Ver proyectos</a>
             </Button>
           </div>
          

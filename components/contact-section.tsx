@@ -27,7 +27,8 @@ export function ContactSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">¿Listo para trabajar juntos?</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Hablemos sobre tu proyecto y cómo puedo ayudarte a alcanzar tus objetivos
+            No dejes que tu proximo cliente se vaya a la competencia.
+            Creemos tu sitio web hoy y empezá a generar resultados reales.
           </p>
         </div>
         <div className="grid lg:grid-cols-2 gap-12">
