@@ -13,8 +13,8 @@ export function HeroSection() {
               Estudiante de Ingenieria en Sistemas
             </Badge>
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              Transformo tus ideas en 
-              <span className="text-blue-600"> sitios web</span> increíbles
+              Llevá    
+              <span className="text-blue-600"> tu negocio</span> al siguiente nivel.
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
               Desarrollo sitios web modernos, rápidos y optimizados que impulsan tu negocio. 
