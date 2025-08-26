@@ -31,8 +31,8 @@ export function Header() {
               {item.label}
             </a>
           ))}
-          <Button className="bg-blue-600 hover:bg-blue-700">
-            Pedí tu presupuesto
+          <Button className="bg-blue-600 hover:bg-blue-700" asChild>
+            <a href="#contacto">Pedí tu presupuesto</a>
           </Button>
         </div>
 

@@ -91,8 +91,9 @@ export function PlansSection() {
                         ? "bg-blue-600 hover:bg-blue-700"
                         : "bg-gray-800 hover:bg-gray-900"
                     }`}
+                    asChild
                   >
-                    Más info
+                    <a href="https://wa.me/2916462233">Más info</a>
                   </Button>
                 </CardContent>
               </Card>
