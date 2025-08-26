@@ -32,7 +32,7 @@ export function HeroSection() {
         <div className="relative">
           <div className="">
             <Image 
-              src="/bzq.png" 
+              src="/BZQ.png" 
               alt="BZQ Studio"
               width={800}
               height={600}
