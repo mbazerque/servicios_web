@@ -43,7 +43,7 @@ export async function submitContactForm(formData: FormData) {
 
     return {
       success: true,
-      message: '¡Mensaje enviado con éxito! Te contactaré pronto.'
+      message: '¡Mensaje enviado con éxito!'
     }
   } catch (error) {
     console.error('Error en submitContactForm:', error)
