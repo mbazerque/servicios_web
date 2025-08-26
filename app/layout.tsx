@@ -9,8 +9,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'BZQ Studio',
-  description: 'Desarrollo sitios web modernos, rápidos y optimizados que impulsan tu negocio. Especialista en React, Next.js y aplicaciones web.',
-  keywords: ['desarrollador web', 'sitios web', 'aplicaciones web', 'React', 'Next.js', 'desarrollo frontend'],
+  description: 'Desarrollamos sitios web modernos, rápidos y optimizados...',
+  keywords: ['desarrollador web', 'sitios web', 'aplicaciones web', 'React', 'Next.js'],
   authors: [{ name: 'DevWeb Pro' }],
   creator: 'DevWeb Pro',
   openGraph: {
@@ -18,25 +18,23 @@ export const metadata: Metadata = {
     locale: 'es_ES',
     url: '',
     title: 'BZQ Studio',
-    description: 'Desarrollo sitios web modernos, rápidos y optimizados que impulsan tu negocio.',
+    description: 'Desarrollamos sitios web modernos, rápidos y optimizados que impulsan tu negocio.',
     siteName: 'BZQ Studio',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'BZQ Studio',
-    description: 'Desarrollo sitios web modernos, rápidos y optimizados que impulsan tu negocio.',
+    description: 'Desarrollamos sitios web modernos, rápidos y optimizados que impulsan tu negocio.',
   },
   robots: {
     index: true,
     follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  }
+  },
+  icons: {
+    icon: '/BZQ.png',       // ícono principal
+    shortcut: '/BZQ.png',   // para navegadores antiguos
+    apple: '/BZQ.png', // para iOS
+  },
 }
 
 export default function RootLayout({
