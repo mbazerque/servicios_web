@@ -8,7 +8,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Martin Bazerque',
+  title: 'BZQ Studio',
   description: 'Desarrollo sitios web modernos, rápidos y optimizados que impulsan tu negocio. Especialista en React, Next.js y aplicaciones web.',
   keywords: ['desarrollador web', 'sitios web', 'aplicaciones web', 'React', 'Next.js', 'desarrollo frontend'],
   authors: [{ name: 'DevWeb Pro' }],
@@ -17,13 +17,13 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'es_ES',
     url: '',
-    title: 'Martin Bazerque',
+    title: 'BZQ Studio',
     description: 'Desarrollo sitios web modernos, rápidos y optimizados que impulsan tu negocio.',
-    siteName: 'DevWeb Pro',
+    siteName: 'BZQ Studio',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Martin Bazerque',
+    title: 'BZQ Studio',
     description: 'Desarrollo sitios web modernos, rápidos y optimizados que impulsan tu negocio.',
   },
   robots: {

@@ -30,7 +30,7 @@ export function ServicesSection() {
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Cada negocio es único, y tu web también debería serlo</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             
-            Ofrezco soluciones completas de desarrollo web adaptadas a las necesidades de tu negocio
+            Ofrecemos soluciones completas de desarrollo web adaptadas a las necesidades de tu negocio
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -9,11 +9,11 @@ import { Header } from '@/components/header'
 import { HeroSection } from '@/components/hero-section'
 import { ServicesSection } from '@/components/services-section'
 import { ProjectsSection } from '@/components/projects-section'
-import { AboutSection } from '@/components/about-section'
 import { ContactSection } from '@/components/contact-section'
 import { Footer } from '@/components/footer'
 import { LoadingSpinner } from '@/components/loading-spinner'
 import { submitContactForm } from '@/app/actions/contact'
+import { PlansSection } from '@/components/plans-section'
 
 
 export default function HomePage() {
@@ -26,7 +26,7 @@ export default function HomePage() {
         <Suspense fallback={<LoadingSpinner />}>
           <ProjectsSection />
         </Suspense>
-        <AboutSection />
+        <PlansSection />
         <ContactSection />
       </main>
       <Footer />
