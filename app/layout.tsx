@@ -44,9 +44,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es" className="scroll-smooth">
-      <body className={inter.className}>
-        {children}
-      </body>
+      {/* Add padding-top so page content doesn't sit under the fixed header */}
+      <body className={`${inter.className} pt-32 md:pt-2`}>{children}</body>
     </html>
   )
 }

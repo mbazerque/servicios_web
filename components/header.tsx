@@ -15,13 +15,13 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+    <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50 h-16">
+      <div className="container mx-auto px-4 h-full flex items-center justify-between">
         {/* Logo */}
         <div className="text-xl font-bold text-gray-900">BZQ Studio</div>
 
         {/* Desktop */}
-        <div className="hidden md:flex items-center space-x-8">
+  <div className="hidden md:flex items-center space-x-8">
           {navigationItems.map((item) => (
             <a
               key={item.href}
