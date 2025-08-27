@@ -1,6 +1,5 @@
 import { ArrowRight } from 'lucide-react'
 import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
 import Image from 'next/image'
 
 export function HeroSection() {
@@ -14,35 +13,35 @@ export function HeroSection() {
               <span className="text-[#0066ff]"> TU NEGOCIO</span> AL SIGUIENTE NIVEL.
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">   
-              Creamos sitios web modernos, rapidos y optimizados para que cada visita se convierta en un cliente.
+              Creamos sitios web modernos, rápidos y optimizados para que cada visita se convierta en un cliente.
               Desde landing pages hasta aplicaciones web complejas.
             </p>
           </div>
+
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="#contacto">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+            <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700">
+              <a href="#contacto">
                 Solicítá tu presupuesto gratis
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-            </a>
-            <Button size="lg" variant="outline" asChild>
+              </a>
+            </Button>
+
+            <Button asChild size="lg" variant="outline">
               <a href="#proyectos">Ver proyectos</a>
             </Button>
           </div>
-         
         </div>
+
         <div className="relative">
-          <div className="">
-            <Image 
-              src="/BZQ.png" 
-              alt="BZQ Studio"
-              width={800}
-              height={600}
-              priority
-              placeholder="blur"
-              blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
-            />
-          </div>
+          <Image 
+            src="/BZQ.png" 
+            alt="BZQ Studio"
+            width={800}
+            height={600}
+            priority
+            placeholder="blur"
+            blurDataURL="data:image/jpeg;base64,/9j/..."
+          />
         </div>
       </div>
     </section>
