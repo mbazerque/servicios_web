@@ -19,10 +19,12 @@ export function HeroSection() {
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-              Solicitá tu presupuesto gratis
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            <a href="#contacto">
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                Solicítá tu presupuesto gratis
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </a>
             <Button size="lg" variant="outline" asChild>
               <a href="#proyectos">Ver proyectos</a>
             </Button>
