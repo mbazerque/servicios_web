@@ -8,7 +8,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'BZQ Studio',
+  title: 'BZ Tech',
   description: 'Desarrollamos sitios web modernos, rápidos y optimizados...',
   keywords: ['desarrollador web', 'sitios web', 'aplicaciones web', 'React', 'Next.js'],
   authors: [{ name: 'DevWeb Pro' }],
@@ -17,13 +17,13 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'es_ES',
     url: '',
-    title: 'BZQ Studio',
+    title: 'BZ Tech',
     description: 'Desarrollamos sitios web modernos, rápidos y optimizados que impulsan tu negocio.',
-    siteName: 'BZQ Studio',
+    siteName: 'BZ Tech',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'BZQ Studio',
+    title: 'BZ Tech',
     description: 'Desarrollamos sitios web modernos, rápidos y optimizados que impulsan tu negocio.',
   },
   robots: {

@@ -6,7 +6,7 @@ export function Footer() {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between text-gray-400">
         {/* Texto centrado */}
         <p className="text-center md:text-left mb-4 md:mb-0">
-          &copy; 2025 Developed by BZQ Studio.
+          &copy; 2025 Developed by BZ Tech.
         </p>
 
         {/* Iconos */}
