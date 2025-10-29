@@ -6,18 +6,27 @@ import { Button } from "@/components/ui/button"
 
 const navigationItems = [
   { href: '/', label: 'Inicio' },
+  { href: '#servicios', label: 'Servicios' },
   { href: '#proyectos', label: 'Proyectos' },
   { href: '#planes', label: 'Planes' },
+  
 ]
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50 h-16">
+  <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50 h-20">
       <div className="mx-4 md:mx-16 xl:mx-auto max-w-screen-xl h-full flex items-center justify-between">
         {/* Logo */}
-        <div className="text-xl font-bold text-gray-900">BZ Tech</div>
+        <div className="flex items-center h-12">
+          <img
+            src="/BZQ.png"
+            alt="BZQ Studio Logo"
+            className="h-10 w-auto object-contain"
+            style={{ maxWidth: '120px' }}
+          />
+        </div>
 
         {/* Desktop */}
   <div className="hidden md:flex items-center space-x-8">
@@ -31,14 +40,14 @@ export function Header() {
             </a>
           ))}
           <Button className="bg-blue-600 hover:bg-blue-700" asChild>
-            <a href="/contacto">Contacto</a>
+            <a href="#contacto">Contacto</a>
           </Button>
         </div>
 
         {/* Mobile */}
         <div className="md:hidden flex items-center space-x-2">
           <Button className="bg-blue-600 hover:bg-blue-700 text-xs px-2 py-2">
-            Contacto
+            <a href="#contacto">Contacto</a>
           </Button>
           <button
             onClick={() => setIsOpen(!isOpen)}

@@ -27,10 +27,10 @@ export function ServicesSection() {
     <section id="servicios" className="bg-gray-50 py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Cada negocio es único, y tu web también debería serlo</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Cada marca es única, y tu web también debería serlo</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             
-            Ofrecemos soluciones completas de desarrollo web adaptadas a las necesidades de tu negocio
+            Ofrecemos soluciones completas de desarrollo web adaptadas a las necesidades de tu marca
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
