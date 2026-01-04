@@ -19,12 +19,12 @@ export function Header() {
   <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50 h-20">
       <div className="mx-4 md:mx-16 xl:mx-auto max-w-screen-xl h-full flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center h-12">
+        <div className="flex items-center">
           <img
             src="/BZQ.png"
             alt="BZQ Studio Logo"
-            className="h-10 w-auto object-contain"
-            style={{ maxWidth: '120px' }}
+            className="h-16 w-auto object-contain"
+            style={{ maxWidth: '220px' }}
           />
         </div>
 

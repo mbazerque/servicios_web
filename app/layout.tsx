@@ -31,8 +31,8 @@ export const metadata: Metadata = {
     follow: true,
   },
   icons: {
-    icon: '/BZQ.png',       // ícono principal
-    shortcut: '/BZQ.png',   // para navegadores antiguos
+    icon: '/favicon.ico',       // ícono principal
+    shortcut: '/favicon.ico',   // para navegadores antiguos
     apple: '/BZQ.png', // para iOS
   },
 }
