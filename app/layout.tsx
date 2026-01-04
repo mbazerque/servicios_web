@@ -8,7 +8,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'BZ Tech',
+  title: 'BZ Tech | Desarrolo web para tu negocio',
   description: 'Desarrollamos sitios web modernos, rápidos y optimizados...',
   keywords: ['desarrollador web', 'sitios web', 'aplicaciones web', 'React', 'Next.js'],
   authors: [{ name: 'DevWeb Pro' }],
