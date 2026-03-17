@@ -29,16 +29,6 @@ export function Header() {
     <header className={`fixed top-0 left-0 w-full bg-zinc-900 z-50 h-20 transition-shadow duration-300${scrolled ? ' shadow-md' : ''}`}>
       <div className="mx-4 md:mx-16 xl:mx-auto max-w-screen-xl h-full flex items-center justify-between">
         {/* Logo */}
-<<<<<<< HEAD
-          <div className="flex items-center h-20">
-            <img
-              src="/BZQ.png"
-              alt="BZQ Studio Logo"
-              className="h-15 w-auto object-contain"
-              style={{ maxWidth: '140px' }}
-            />
-          </div>
-=======
         <div className="flex items-center">
           <img
             src="/BZQ.png"
@@ -47,7 +37,6 @@ export function Header() {
             style={{ maxWidth: '220px' }}
           />
         </div>
->>>>>>> ffc621e04533d99829a3b3fa14fec6e7f896beb9
 
         {/* Desktop */}
   <div className="hidden md:flex items-center space-x-8">
