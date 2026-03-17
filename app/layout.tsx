@@ -8,7 +8,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'BZ Tech',
+  title: 'BZ Tech | Desarrolo web para tu negocio',
   description: 'Desarrollamos sitios web modernos, rápidos y optimizados...',
   keywords: ['desarrollador web', 'sitios web', 'aplicaciones web', 'React', 'Next.js'],
   authors: [{ name: 'DevWeb Pro' }],
@@ -31,9 +31,15 @@ export const metadata: Metadata = {
     follow: true,
   },
   icons: {
+<<<<<<< HEAD
     icon: '/logo-pestana.jpg',       // ícono principal
     shortcut: '/logo-pestana.jpg',   // para navegadores antiguos
     apple: '/logo-pestana.jpg', // para iOS
+=======
+    icon: '/favicon.ico',       // ícono principal
+    shortcut: '/favicon.ico',   // para navegadores antiguos
+    apple: '/BZQ.png', // para iOS
+>>>>>>> ffc621e04533d99829a3b3fa14fec6e7f896beb9
   },
 }
 
