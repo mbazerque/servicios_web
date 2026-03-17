@@ -31,9 +31,9 @@ export const metadata: Metadata = {
     follow: true,
   },
   icons: {
-    icon: '/BZQ.png',       // ícono principal
-    shortcut: '/BZQ.png',   // para navegadores antiguos
-    apple: '/BZQ.png', // para iOS
+    icon: '/logo-pestana.jpg',       // ícono principal
+    shortcut: '/logo-pestana.jpg',   // para navegadores antiguos
+    apple: '/logo-pestana.jpg', // para iOS
   },
 }
 
@@ -43,9 +43,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="es" className="scroll-smooth">
+    <html lang="es" className="scroll-smooth dark">
       {/* Add padding-top so page content doesn't sit under the fixed header */}
-      <body className={`${inter.className} pt-32 md:pt-2`}>{children}</body>
+      <body className={`${inter.className} pt-32 md:pt-2 bg-zinc-900`}>{children}</body>
     </html>
   )
 }

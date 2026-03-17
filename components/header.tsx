@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 
@@ -14,30 +15,39 @@ const navigationItems = [
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 0)
+    }
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   return (
-  <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50 h-20">
+    <header className={`fixed top-0 left-0 w-full bg-zinc-900 z-50 h-20 transition-shadow duration-300${scrolled ? ' shadow-md' : ''}`}>
       <div className="mx-4 md:mx-16 xl:mx-auto max-w-screen-xl h-full flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center h-12">
-          <img
-            src="/BZQ.png"
-            alt="BZQ Studio Logo"
-            className="h-10 w-auto object-contain"
-            style={{ maxWidth: '120px' }}
-          />
-        </div>
+          <div className="flex items-center h-20">
+            <img
+              src="/BZQ.png"
+              alt="BZQ Studio Logo"
+              className="h-15 w-auto object-contain"
+              style={{ maxWidth: '140px' }}
+            />
+          </div>
 
         {/* Desktop */}
   <div className="hidden md:flex items-center space-x-8">
           {navigationItems.map((item) => (
-            <a
-              key={item.href}
-              href={item.href}
-              className="text-gray-600 hover:text-blue-600 transition-colors duration-200"
-            >
-              {item.label}
-            </a>
+              <a
+                key={item.href}
+                href={item.href}
+                className="text-white hover:text-blue-400 transition-colors duration-200"
+              >
+                {item.label}
+              </a>
           ))}
           <Button className="bg-blue-600 hover:bg-blue-700" asChild>
             <a href="#contacto">Contacto</a>
@@ -51,7 +61,7 @@ export function Header() {
           </Button>
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="p-2 text-gray-600 hover:text-blue-600 transition-colors"
+            className="p-2 text-white hover:text-blue-400 transition-colors"
             aria-label="Toggle menu"
           >
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -61,13 +71,13 @@ export function Header() {
 
       {/* Menú mobile desplegable */}
       {isOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg border-t border-gray-200 z-40">
+        <div className="md:hidden absolute top-full left-0 w-full bg-zinc-900 shadow-lg border-t border-zinc-800 z-40">
           <div className="flex flex-col py-2">
             {navigationItems.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
-                className="block px-4 py-3 text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-colors duration-200"
+                className="block px-4 py-3 text-white hover:text-blue-400 hover:bg-zinc-800 transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 {item.label}

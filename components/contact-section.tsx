@@ -22,11 +22,11 @@ const contactInfo = [
 
 export function ContactSection() {
   return (
-    <section id="contacto" className="bg-gray-50 py-20">
+    <section id="contacto" className="bg-zinc-900 py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">¿Listo para trabajar juntos?</h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-4xl font-bold text-white mb-4">¿Listo para trabajar juntos?</h2>
+          <p className="text-xl text-gray-200 max-w-2xl mx-auto">
             No dejes que tu proximo cliente se vaya a la competencia.
             Creemos tu sitio web hoy y empezá a generar resultados reales.
           </p>
@@ -41,8 +41,8 @@ export function ContactSection() {
                     <IconComponent className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900">{info.title}</h3>
-                    <p className="text-gray-600">{info.value}</p>
+                    <h3 className="font-semibold text-white">{info.title}</h3>
+                    <p className="text-gray-200">{info.value}</p>
                   </div>
                 </div>
               )

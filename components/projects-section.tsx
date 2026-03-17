@@ -29,8 +29,8 @@ export function   ProjectsSection() {
     <section id="proyectos" className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Proyectos Destacados</h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-4xl font-bold text-white mb-4">Proyectos Destacados</h2>
+          <p className="text-xl text-gray-200 max-w-2xl mx-auto">
             Algunos de los proyectos que he desarrollado para mis clientes
           </p>
         </div>
@@ -48,7 +48,7 @@ export function   ProjectsSection() {
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-gray-600 mb-4">{project.description}</p>
+                <p className="text-gray-200 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech, techIndex) => (
                     <Badge key={techIndex} variant="secondary">{tech}</Badge>

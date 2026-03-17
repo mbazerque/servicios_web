@@ -7,14 +7,14 @@ import { Typewriter } from "react-simple-typewriter";
 
 export function HeroSection() {
   return (
-    <section className="container mx-auto px-4 py-21 md:py-20 lg:py-20">
-      <div className="grid lg:grid-cols-2 gap-12 items-center">
+    <section className="container mx-auto px-4 mt-32 md:mt-20 lg:mt-32 px-4 py-21 md:py-20 lg:py-20">
+      <div className="grid lg:grid-cols-2 gap-12 items-center bg-zinc-900 rounded-2xl">
         {/* Texto */}
         <div className="space-y-8">
           <div className="space-y-4">
-            <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight text-center lg:text-left">
-              <span className="text-black">Sitios web </span>
-              <span className="text-black">
+            <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight text-center lg:text-left">
+              <span className="text-white">Sitios web </span>
+              <span className="text-white">
                 que impulsan tu{" "}
                 <br></br><span className="text-[#0066ff]">
                   <Typewriter
@@ -30,7 +30,7 @@ export function HeroSection() {
               </span>
             </h1>
 
-            <p className="text-xl text-gray-600 leading-relaxed">
+            <p className="text-xl text-gray-200 leading-relaxed">
               Creamos sitios web modernos, rápidos y optimizados para que cada visita se convierta en un cliente.
               Desde landing pages hasta aplicaciones web complejas.
             </p>
@@ -54,8 +54,8 @@ export function HeroSection() {
         {/* Imagen */}
         <div className="relative">
           <Image
-            src="/BZQ.png"
-            alt="BZQ Studio"
+            src="/hero.png"
+            alt="BZ Studio"
             width={800}
             height={600}
             priority

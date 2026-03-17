@@ -2,7 +2,7 @@ import { Linkedin, Mail, MessageCircle } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-black/90 text-white py-12">
       <div className="px-4 md:px-16 xl:px-0 max-w-screen-xl mx-auto">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between text-gray-400">
           <p className="text-center md:text-left mb-4 md:mb-0">

@@ -11,7 +11,7 @@ import { PlansSection } from '@/components/plans-section'
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-white">
+    <div className="min-h-screen bg-zinc-900">
       <Header />
       <main className="px-4 md:px-16 xl:px-0 max-w-screen-xl mx-auto">
         <HeroSection />

@@ -38,13 +38,13 @@ const plans = [
 
 export function PlansSection() {
   return (
-    <section id="planes" className="bg-white py-20">
+    <section id="planes" className="bg-zinc-900 py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl font-bold text-white mb-4">
             Planes de Desarrollo Web
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-200 max-w-2xl mx-auto">
             Elegí el plan que mejor se adapte a las necesidades de tu negocio.
           </p>
         </div>
@@ -61,17 +61,17 @@ export function PlansSection() {
                 <CardHeader className="text-center">
                   <IconComponent
                     className={`h-12 w-12 mx-auto mb-4 ${
-                      plan.highlighted ? "text-blue-600" : "text-gray-600"
+                      plan.highlighted ? "text-blue-400" : "text-gray-200"
                     }`}
                   />
                   <CardTitle
                     className={`text-2xl ${
-                      plan.highlighted ? "text-blue-600" : "text-gray-900"
+                      plan.highlighted ? "text-blue-400" : "text-white"
                     }`}
                   >
                     {plan.title}
                   </CardTitle>
-                  <p className="text-gray-600 mt-2">{plan.description}</p>
+                  <p className="text-gray-200 mt-2">{plan.description}</p>
                 </CardHeader>
                 <CardContent className="flex flex-col justify-between flex-grow">
                   <ul className="space-y-2 mb-6">
